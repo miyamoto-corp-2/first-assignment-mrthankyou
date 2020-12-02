@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "send token to burp",
-      "setup": "printenv",
-      "run": "echo 1",
+      "setup": "",
+      "run": "printenv",
       "input": "",
       "output": "",
       "comparison": "included",
